@@ -1,0 +1,42 @@
+InheritanceProject/
+├── README.md
+├── InheritanceDemo.java
+├── SingleInheritance.java
+├── MultiLevelInheritance.java
+├── HybridInheritance.java
+└── HierarchicalInheritance.java
+# Inheritance in Java
+
+## Overview
+
+This project demonstrates different types of inheritance in Java. Inheritance is a key concept in object-oriented programming that enables a class (known as a child or subclass) to inherit properties and behaviors from another class (known as a parent or superclass). This helps in reusability of code, modular design, and ease of maintenance.
+
+## Types of Inheritance
+
+1. **Single Inheritance**: A child class inherits from a single parent class.
+2. **Multilevel Inheritance**: A chain of inheritance where a child class has a parent class, which in turn has another parent class.
+3. **Hierarchical Inheritance**: Multiple classes inherit from a single parent class.
+4. **Hybrid Inheritance**: A combination of multiple and hierarchical inheritance (achieved through interfaces).
+5. **Multiple Inheritance**: Not directly supported in Java for classes but achievable using interfaces.
+
+## Code Files
+
+Each type of inheritance is implemented in separate files for clarity:
+
+- **InheritanceDemo.java**: Basic example of single inheritance where a `Triangle` class inherits the `color` property from the `Shape` class.
+- **SingleInheritance.java**: Single inheritance with method overriding.
+- **MultiLevelInheritance.java**: Demonstrates multilevel inheritance using `Shape`, `TriangleBase`, and `EquilateralTriangle` classes.
+- **HybridInheritance.java**: Demonstrates hybrid inheritance through a combination of class inheritance.
+- **HierarchicalInheritance.java**: Demonstrates hierarchical inheritance with multiple subclasses (`TriangleShape` and `CircleShape`) inheriting from `ShapeWithMultipleShapes`.
+
+## Requirements
+
+- Java 8 or higher.
+
+## Running the Code
+
+1. Clone the repository.
+2. Compile and run each file separately to see the output.
+   ```bash
+   javac InheritanceDemo.java
+   java InheritanceDemo
